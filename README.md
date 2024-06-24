@@ -56,6 +56,14 @@ cd kubernetes
 make quick-release
 ```
 
+
+## Now Create a Simple Deployment Using the yaml file 
+
+```
+kubectl create -f nginx.yaml
+```
+
+
 For the full story, head over to the [developer's documentation].
 
 ## Support
